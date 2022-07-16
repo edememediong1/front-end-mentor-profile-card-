@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    background-image: url(../images/bg-pattern-top.svg),url(../images/bg-pattern-bottom.svg);
+    background-color: rgb(62, 181, 228);
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position:
+        top -500px left -200px,
+        bottom -500px right -200px 
+    ;
+}
+
+section{
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    justify-content: self;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+.profile-card{
+    width: 100%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-container{
+    display: grid;
+    justify-content: center;
+ 
+}
+.profile-image{
+    width: 100%;
+    margin-top: -50%;
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.name-box{
+    font-size: small;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    /* margin-bottom: -10px; */
+}
+
+.name-box .head .span{
+    font-weight: 400;
+}
+.name-box .head{
+    margin-bottom: -10px;
+}
+.item-box{
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2px 2px;
+    border-top: 0.5px solid rgb(240, 239, 239);
+
+}
+
+.display h1{
+    margin-bottom: -10px;
+    font-size: larger;
+}
+
+.display p{
+    font-size: x-small;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.attribution a {
+    text-decoration: none; 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px){
+
+    body{
+        /* background-color: rgb(231, 227, 227); */
+        background-size: 500px;
+        background-position: 
+            top -270px left -300px,
+            bottom -400px right -300px;
+        ;
+    }
+
+    section{
+        margin-top: 50%;    
+    }
+    
+
+}
